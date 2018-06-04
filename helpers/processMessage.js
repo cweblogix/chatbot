@@ -24,5 +24,3 @@ sendTextMessage(senderId, result);
 apiaiSession.on('error', error => console.log(error));
  apiaiSession.end();
 };
-
-//EAAUlZAuTFadIBAGGvrFdMrdKOi22b0dpbIxeNnc1LFanRWtB4ZA8Atz2rTXA6a7JdfOTwrcRlxlMZClxwGHqJOOp2WZCa2Ik3ZBMUOwnd3EpKPkftu0v0HLRAMQu9trZA07ZB63xITN1DpP1DO9wlKiWFih70kDQyErdGNGxeeD4wZDZD
