@@ -10,6 +10,10 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.listen(3000, () => console.log('Webhook server is listening, port 3000'));
 
+app.get('/', function(req,res){
+    res.send("deplop");
+})
+
 const verificationController = require('./controllers/verification');
 app.get('/webhook', verificationController);
 const messageWebhookController = require('./controllers/messageWebhook');
